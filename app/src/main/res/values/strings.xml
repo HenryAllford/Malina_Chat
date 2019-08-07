@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">MALINA CHAT</string>
+    <string name="app_name_slogan">live auctions</string>
+    <string name="give_correct_information">Пожалуйста, дайте правильную информацию. Потому что ваша электронная почта и номер телефона должен быть проверен.</string>
+    <string name="student_name">Dmitry Makarevich</string>
+    <string name="copyright">Malina chat © 2019</string>
+    <string name="profile_settings">Мой Профиль</string>
+    <string name="thehasnatbd">MALINA AUCTIONS</string>
+    <string name="log_in">Войти</string>
+    <string name="log_out">Выйти</string>
+    <string name="profile">Профиль</string>
+    <string name="friends">Друзья</string>
+    <string name="about_app">О Приложении</string>
+    <string name="all_peoples">Люди</string>
+    <string name="all_friends">Друзья</string>
+    <string name="next">ДАЛЕЕ</string>
+    <string name="skip">ПРОПУСТИТЬ</string>
+    <string name="start">START</string>
+    <string name="title_slide1">Общение</string>
+    <string name="desc_slide1">Вы можете найти большое количество людей, чтобы построить дружбу и бизнес</string>
+    <string name="title_slide2">Бесплатно</string>
+    <string name="desc_slide2">Malina chat абсолютно БЕСПЛАТНО, без абонентской платы.</string>
+    <string name="title_slide3">Болтаем</string>
+    <string name="desc_slide3">полностью личная система чата</string>
+    <string name="title_slide4">Безопасность</string>
+    <string name="desc_slide4">Malina chat хранит ваши сообщения в безопасности</string>
+    <string name="varsity_name">BANGLADESH UNIVERSITY</string>
+    <string name="instructor1_name">Md. Sadiq Iqbal</string>
+    <string name="instructor_name">Omor Faruk</string>
+    <string name="about_text">Это приложение построено для упрощения коммуникации между пользователями MALINA AUCTIONS. Это open-source проект. Ссылка на проект:</string>
+    <string name="project_git_link"><u>https://github.com/HenryAllford/MALINA-CHAT</u></string>
+    <string name="about_app_detail">x</string>
+    <string name="student_id_details">B.Sc in Applied Mathematics &amp; Computer Engineering\nID: 201521 042 019</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Пароль (необязательный)</string>
+    <string name="action_sign_in">Войдите или зарегистрируйтесь</string>
+    <string name="action_sign_in_short">Войдите</string>
+    <string name="error_invalid_email">Этот адрес электронной почты недействителен</string>
+    <string name="error_invalid_password">Этот пароль слишком короткий</string>
+    <string name="error_incorrect_password">Неверный пароль</string>
+    <string name="error_field_required">Это поле обязательно к заполнению</string>
+    <string name="permission_rationale">"Контакты разрешения необходимы для предоставления электронной почты
+         пополнения."
+    </string>
+    <string name="on_internet_msg">Интернет-соединение не найдено! Пожалуйста проверьте интернет-соединение.</string>
+    <string name="menu_search">Поиск</string>
+    <string name="register_success_popup">Регистрация прошла успешно.\nПодтверждение отправлено по электронной почте.\nПожалуйста,подтвердите адрес электронной почты.</string>
+    <string name="recheck_gender">Чтобы сохранить изменения, пожалуйста, проверьте / перепроверьте свой GENDER.</string>
+    <string name="powered_by">powered by</string>
+    <string name="professor"><![CDATA[Associate Professor & Chairman Dept of CSE, Bangladesh University]]></string>
+    <string name="valeria">Valeria Pilipchik</string>
+    <string name="valeria_st">Student, GrSU University, Belarus B.Sc in Jurisprudence, International Law ID: 201521 042 019</string>
+    <string name="developed_by">developed by-</string>
+    <string name="dmitry_st">Student, GrSU University, Belarus</string>
+    <string name="no_internet_connection">Интернет-соединение не найдено</string>
+    <string name="todo">todo</string>
+    <string name="enter_message">Введите сообщение...</string>
+    <string name="forgot">Восстановление доступа</string>
+    <string name="give_me_link">Получить аварийную ссылку</string>
+    <string name="sample_mail">picasso94@gmail.com</string>
+    <string name="if_you_press_button">Нажав КНОПКУ, вы получите электронное письмо для сброса пароля</string>
+    <string name="log_in_account">Вход в аккаунт</string>
+    <string name="log_inn">Войти</string>
+    <string name="stars">****************</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="already_new">Новичок? Создайте новый аккаунт</string>
+    <string name="if_you_create_acc">Создавая аккаунт в MALINA CHAT мы рекомендуем предоставлять для регистрации те же данные, что и на площадке MALINA AUCTIONS . Предоставляя для обработки данные введенные на площадке MALINA AUCTIONS вы помогаете нам бороться с мошенниками и ботами.</string>
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="enable_request">Отправить запрос на дружбу</string>
+    <string name="disable_request">Отменить запрос на дружбу</string>
+    <string name="create_new_acc">СОЗДАНИЕ НОВОГО АККАУНТА</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="accept_password">Подтвердите пароль</string>
+    <string name="password">Пароль</string>
+    <string name="james_lowry">James Lowry</string>
+    <string name="sample_mobile">+375 (29) 247-09-08</string>
+    <string name="no_search">Не найден</string>
+    <string name="saved_succes">Ваша информация успешно обновлена</string>
+    <string name="status_ok">Статус Доступен</string>
+    <string name="personal_info">Персональная информация</string>
+    <string name="nick">Ник:</string>
+    <string name="sample_nick">black228</string>
+    <string name="sample_profession">HR manager</string>
+    <string name="man">Мужчина</string>
+    <string name="woman">Женщина</string>
+    <string name="save_changes">Сохранить Изменения</string>
+    <string name="rec_status">Обновите ваш статус...</string>
+    <string name="online">online</string>
+    <string name="search_name">Искать имя</string>
+    <string name="are_you_sure">Вы уверены, что хотите выйти?</string>
+    <string name="from_sender">От получателя</string>
+    <string name="to_sender">От отправителя</string>
+    <string-array name="spinerViewPeople">
+        <item>Default</item>
+        <item>Имя</item>
+        <item>Дата</item>
+    </string-array>
+
+</resources>

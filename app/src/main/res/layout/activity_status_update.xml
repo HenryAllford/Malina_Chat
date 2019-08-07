@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F6F8"
+    tools:context="chat.infobox.hasnat.ume.ume.ProfileSetting.StatusUpdateActivity">
+
+    <include
+        android:id="@+id/update_status_appbar"
+        layout="@layout/all_app_bar_layout" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/update_status_appbar"
+        android:layout_marginTop="45dp"
+        app:srcCompat="@drawable/raspberry" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@id/imageView3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/gra_white"
+        tools:context="chat.infobox.hasnat.ume.ume.ProfileSetting.StatusUpdateActivity">
+
+        <EditText
+            android:id="@+id/input_status"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/rec_status"
+            android:inputType="textMultiLine"
+            android:textColor="#ea5d72"
+            android:textColorHighlight="#ea5d72"
+            android:textColorHint="#ea5d72"
+            android:textSize="14sp"
+            tools:ignore="Autofill" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

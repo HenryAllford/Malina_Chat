@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        tools:context="chat.infobox.hasnat.ume.ume.Profile.ProfileActivity"
+        tools:ignore="RedundantNamespace,ScrollViewSize">
+
+        <include
+            android:id="@+id/single_profile_toolbar"
+            layout="@layout/all_app_bar_layout" />
+
+        <LinearLayout
+            android:id="@+id/layOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/single_profile_toolbar"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="UselessParent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/visit_user_profile_image"
+                    android:layout_width="185dp"
+                    android:layout_height="185dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/default_profile_image"
+                    app:civ_border_color="@color/colorPrimary"
+                    app:civ_border_width="1dp" />
+
+                <ImageView
+                    android:id="@+id/visit_verified_icon"
+                    android:layout_width="23dp"
+                    android:layout_height="23dp"
+                    android:layout_marginStart="151dp"
+                    android:layout_marginTop="155dp"
+                    android:src="@drawable/ic_check_circle"
+                    android:visibility="visible"
+                    android:contentDescription="@string/todo" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/visitUserProfileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layOne"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/visit_work"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/visitUserProfileName"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/ic_work"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:visibility="visible"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/visitUserProfileStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/visit_work"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text=""
+            android:textSize="15.5sp" />
+
+        <TextView
+            android:id="@+id/go_my_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/visitUserProfileStatus"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="@string/edit_profile"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/visitUserFrndRqstSendButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/visitUserProfileStatus"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="07dp"
+            android:background="@drawable/ripplebutton"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/enable_request"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/visitUserFrndRqstDeclineButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/visitUserFrndRqstSendButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="07dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/ripplebutton"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/disable_request"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+
+            />
+
+    </RelativeLayout>
+</ScrollView>

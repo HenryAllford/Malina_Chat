@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.makarevich.dmitry.malina.chat">
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="chat.infobox.hasnat.ume.ume.Utils.uMeOffline"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning,InnerclassSeparator">
+        <activity
+            android:name="chat.infobox.hasnat.ume.ume.WelcomeSlide.WelcomeActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Launcher"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="chat.infobox.hasnat.ume.ume.WelcomeSlide.IntroActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="chat.infobox.hasnat.ume.ume.Home.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="chat.infobox.hasnat.ume.ume.LoginReg.LoginActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="chat.infobox.hasnat.ume.ume.ForgotPassword.ForgotPassActivity"
+            android:parentActivityName="chat.infobox.hasnat.ume.ume.LoginReg.LoginActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="chat.infobox.hasnat.ume.ume.LoginReg.RegisterActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="chat.infobox.hasnat.ume.ume.About.AboutAppActivity"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName="chat.infobox.hasnat.ume.ume.Home.MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="chat.infobox.hasnat.ume.ume.ProfileSetting.SettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName="chat.infobox.hasnat.ume.ume.Home.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="chat.infobox.hasnat.ume.ume.ProfileSetting.StatusUpdateActivity"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName="chat.infobox.hasnat.ume.ume.ProfileSetting.SettingsActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="chat.infobox.hasnat.ume.ume.Friends.FriendsActivity"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName="chat.infobox.hasnat.ume.ume.Home.MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="chat.infobox.hasnat.ume.ume.Profile.ProfileActivity"
+            android:configChanges="orientation|screenSize|screenLayout"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="com.infobox.hasnat.ume.ume_TARGET_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="chat.infobox.hasnat.ume.ume.Chat.ChatActivity"
+            android:parentActivityName="chat.infobox.hasnat.ume.ume.Home.MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="chat.infobox.hasnat.ume.ume.Search.SearchActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <service
+            android:name="chat.infobox.hasnat.ume.ume.Utils.FirebaseMessagingService"
+            tools:ignore="ExportedService,InnerclassSeparator">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

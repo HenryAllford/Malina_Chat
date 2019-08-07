@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chat.infobox.hasnat.ume.ume.Home.MainActivity">
+
+    <include
+        android:id="@+id/main_page_toolbar"
+        layout="@layout/app_bar_layout" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/main_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_page_toolbar"
+        android:background="@drawable/white_gray_border_bottom"
+        android:theme="@style/AppTheme">
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/tabs_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_tabs">
+
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>
